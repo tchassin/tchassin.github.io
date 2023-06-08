@@ -1,3 +1,9 @@
+---
+title: 日本語
+layout: page
+permalink: /japanese/
+---
+
 # Professional projects
 
 ## Rolling Hills
