@@ -30,7 +30,7 @@ plugins:
 
 # Minima settings
 header_pages:
-  - index.md
+  - english.md
   - japanese.md
 
 minima:
