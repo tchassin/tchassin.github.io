@@ -24,7 +24,10 @@ Rolling Hills is an upcoming independent PC game developed by Catch & Release LL
 
 ### Responsibilities
 
-- In charge of all programming tasks
+- Designing and maintaining the software architecture
+- Implementing, testing and debugging features
+- Selecting and testing assets to keep development costs down
+- Creating UI elements that can be modified by artists later
 
 ## Star Ocean: The Divine Force
 
@@ -44,8 +47,9 @@ Star Ocean: The Divine Force is a Japanese 2022 single-player action role-playin
 
 ### Responsibilities
 
-- Implemented the battle UI and UI debug tools
-- Designed and implemented the AI system (based on behavior trees) as well as in-game editing tools
+- Implementing the battle UI and UI debug tools
+- Designing a AI system based on behavior trees that can be used by game designers
+- Implementing the new AI as well as the in-game editor and debug tools
 
 ---
 
@@ -67,9 +71,9 @@ Mist Gears is a Japanese 2018 role-playing game developed by tri-Ace and Alim fo
 
 ### Responsibilities
 
-- Implemented several in-game menus
-- Reduced the number of server request sent by menus/UI
-- Debugged and optimized the game with the rest of the team before release
+- Implementing several in-game menus (equipment and item menu in particular)
+- Reducing the number of server request sent by menus/UI
+- Debugging and optimizing the game with the rest of the team before release
 
 ---
 
@@ -91,9 +95,9 @@ Steel Division: Normandy 44 is a French 2017 Tactical Real-Time Strategy (RTS) g
 
 ### Role
 
-- Implemented several in-game menus
-- Worked on UI behavior using finite-state automata
-- Worked on the plane movement and behavior
+- Implementing and debugging the in-game UI
+- Implementing and debugging unit behavior using finite-state automata
+- Implementing and debugging semi-realistic plane movement
 
 ---
 
@@ -120,10 +124,13 @@ A playable demo is available on [itch.io](https://tchassin.itch.io/blade-of-verd
 
 ### Responsibilities
 
-- All Programming
-- Plot and character writing
-- Game design
-- Level building using Unity and custom tools
+- Designing and implementing all gameplay systems and features
+- Integrating the UI
+- Creating custom tools to speed up content creation
+- Integrating art and data into the game
+- Writing the plot and characters
+- Building all the levels
+- Designing and balancing game content
 
 ---
 
@@ -148,9 +155,10 @@ The game is playable on [itch.io](https://tchassin.itch.io/hexabuilder) and the 
 
 ### Responsibilities
 
-- Programming
-- Game design
-- Art
+- Designing and implementing all gameplay systems and features
+- Designing and implementing the UI
+- Creating, animating and integrating 3D models
+- Designing and balancing game content
 
 ---
 
@@ -173,6 +181,7 @@ The game is playable on [itch.io](https://tchassin.itch.io/7-day-shmup).
 
 ### Responsibilities
 
-- Programming
-- Game design
-- Art
+- Designing and implementing all gameplay systems and features
+- Designing and implementing the UI
+- Creating, animating and integrating 3D models
+- Designing and balancing game content
