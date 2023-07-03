@@ -3,13 +3,13 @@ title: Home
 layout: page
 ---
 
-Hello, I'm Thomas Chassin, a French game programmer living in Tokyo, Japan.
+Hello, I'm Thomas Chassin, a professional game programmer living in Tokyo, Japan. I love Japanese games and I believe there is something special about them, which is why I left France to work in the Japanese game industry.
 
-I am passionate about games and I love making them. I have experience working on both PC and console games, from indie teams to medium size game studios and I've worked on various types of games, from action role-playing games to real-time strategy games.
+I have experience working on both PC and console games, from indie teams to medium size game studios, and I've worked on various types of games, from action role-playing games like *Star Ocean: The Divine Force* to real-time strategy games like *Steel Division: Normandy 44*.
 
-Although most of my professional experience is with in-house engines written in C++, I'm also used to Unity and C#. I am currently learning Unreal Engine.
+Most of my professional experience is with in-house engines written in C++, but I am also used to Unity and C#. I have mostly worked on single-player PC and console titles. While I am comfortable working on a variety of subject, my strong suit is AI programming. I am a native French speaker but can also speak English and Japanese.
 
-Native French speaker, I am also fluent in English (TOEIC 990) and can speak Japanese (JLPT N3).
+While I am a programmer by trade, I am also interested in other aspects of game making such as game design, writing, music or art. I am currently taking traditional drawing classes to improve my visual design skills (and for fun!).
 
 ---
 

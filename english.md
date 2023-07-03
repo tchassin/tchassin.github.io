@@ -5,30 +5,6 @@ permalink: /english/
 ---
 
 # Professional projects
-
-## Rolling Hills
-
-Rolling Hills is an upcoming independent PC game developed by Catch & Release LLC. It features rogue-lite and simulation elements.
-
-![Rolling Hills](https://pbs.twimg.com/tweet_video_thumb/Fgp19JyXEAMWe1O?format=jpg&name=900x900)
-
-![Rolling Hills](https://pbs.twimg.com/media/FkcaS6tX0Ak62W0?format=jpg&name=large)
-
-### About
-
-- Team size: 8 people
-- Language: C#
-- Engine: Unity
-- Position: game programmer (freelance)
-- Involvement: 2021/4 ~ 2022/4 (1 year 1 month)
-
-### Responsibilities
-
-- Designing and maintaining the software architecture
-- Implementing, testing and debugging features
-- Selecting and testing assets to keep development costs down
-- Creating UI elements that can be modified by artists later
-
 ## Star Ocean: The Divine Force
 
 Star Ocean: The Divine Force is a Japanese 2022 single-player action role-playing game developed by tri-Ace. Released for PlayStation 4, PlayStation 5, Windows, Xbox One, and Xbox Series X/S.
@@ -39,41 +15,22 @@ Star Ocean: The Divine Force is a Japanese 2022 single-player action role-playin
 
 ### About
 
-- Team size: ~50 people
-- Language: C++
-- Engine: In-house
-- Position: game programmer (full-time)
-- Involvement: 2019/8 ~ 2020/10 (1 year 3 months)
+- __Team size:__ ~50 people
+- __Language:__ C++
+- __Engine:__ In-house
+- __Position:__ game programmer (full-time)
+- __Involvement:__ 2019/8 ~ 2020/10 (1 year 3 months)
 
 ### Responsibilities
 
-- Implementing the battle UI and UI debug tools
-- Designing a AI system based on behavior trees that can be used by game designers
-- Implementing the new AI as well as the in-game editor and debug tools
+#### AI programming
+- Replaced the existing AI system with a data-oriented solution based on behavior tree
+- Created a new battle AI authoring and debug tool for the new system that could be used by game designers
+- Reduced the memory footprint and CPU load of the pathfinding system to support larger maps
 
----
-
-## Mist Gears
-
-Mist Gears is a Japanese 2018 role-playing game developed by tri-Ace and Alim for iOS and Android.
-
-![Mist Gears](https://mmoculture.com/wp-content/uploads/2018/08/Mist-Gears-image-3.jpg)
-
-![Mist Gears](https://cdn.amz.appget.com/c/wp-content/uploads/2018/11/mist-gears_01.jpg)
-
-### About
-
-- Team size: ~50 people
-- Language: C++
-- Engine: In-house
-- Position: game programmer (full-time)
-- Involvement: 2018/10 ~ 2019/3 (6 months)
-
-### Responsibilities
-
-- Implementing several in-game menus (equipment and item menu in particular)
-- Reducing the number of server request sent by menus/UI
-- Debugging and optimizing the game with the rest of the team before release
+#### UI programming
+- Implemented UI debug tools using DearImGui such as a hierarchy inspector
+- Worked with artists to implement the battle UI elements
 
 ---
 
@@ -87,19 +44,88 @@ Steel Division: Normandy 44 is a French 2017 Tactical Real-Time Strategy (RTS) g
 
 ### About
 
-- Team size: ~50 people
-- Language: C++
-- Engine: In-house
-- Position: game programmer (full-time)
-- Involvement: 2017/1 ~ 2017/6 (6 months)
+- __Team size:__ ~50 people
+- __Language:__ C++
+- __Engine:__ In-house
+- __Position:__ game programmer (full-time)
+- __Involvement:__ 2017/1 ~ 2017/6 (6 months)
 
-### Role
+### Responsibilities
 
-- Implementing and debugging the in-game UI
-- Implementing and debugging unit behavior using finite-state automata
-- Implementing and debugging semi-realistic plane movement
+#### AI programming
+- Implemented and debugged various unit behavior using finite-state machine
+- In charge of plane order handling
+
+#### Plane simulation programming
+- Helped designing and implementing a lightweight, semi-realistic plane movement system
+- Implemented various dogfight and bombing maneuvers
+
+#### UI programming
+- Implemented in-game menus using the in-house immediate mode GUI system
+- Implemented the in-game unit status display
 
 ---
+
+## Mist Gears
+
+Mist Gears is a Japanese 2018 role-playing game developed by tri-Ace and Alim for iOS and Android.
+
+![Mist Gears](https://mmoculture.com/wp-content/uploads/2018/08/Mist-Gears-image-3.jpg)
+
+![Mist Gears](https://cdn.amz.appget.com/c/wp-content/uploads/2018/11/mist-gears_01.jpg)
+
+### About
+
+- __Team size:__ ~50 people
+- __Language:__ C++
+- __Engine:__ In-house
+- __Position:__ game programmer (full-time)
+- __Involvement:__ 2018/10 ~ 2019/3 (6 months)
+
+### Responsibilities
+
+#### UI programming
+- Implemented several in-game menus (equipment and item menu in particular)
+- Reduced the number of server request sent by menus/UI to minimize server load and loading times
+
+#### General programming
+- Helped debugging and optimizing the game with the rest of the team before release
+
+---
+
+## Rolling Hills
+
+Rolling Hills is an upcoming independent PC game developed by Catch & Release LLC. It features rogue-lite and simulation elements.
+
+![Rolling Hills](https://pbs.twimg.com/tweet_video_thumb/Fgp19JyXEAMWe1O?format=jpg&name=900x900)
+
+![Rolling Hills](https://pbs.twimg.com/media/FkcaS6tX0Ak62W0?format=jpg&name=large)
+
+### About
+
+- __Team size:__ 8 people
+- __Language:__ C#
+- __Engine:__ Unity
+- __Position:__ game programmer (freelance)
+- __Involvement:__ 2021/4 ~ 2022/4 (1 year 1 month)
+
+### Responsibilities
+
+_N.B.: As the game is still in development, I can not detail the implemented features._
+
+#### General programming
+- In charge of designing and maintaining the software architecture
+- Worked with the client to select and tests assets to keep development costs down and reduce development time
+- Worked with game designers to quickly prototype new features
+- Implemented and debugged all game features
+- Used data-oriented programming to allow game designers to create game content themselves
+
+#### UI programming
+- Implemented the various in-game menu and HUD
+- Integrated the UI elements created by artists in Unity
+
+---
+
 
 # Personal projects
 
@@ -117,20 +143,32 @@ A playable demo is available on [itch.io](https://tchassin.itch.io/blade-of-verd
 
 ### About
 
-- Team size: 2 people
-- Language: C#
-- Engine: Unity
-- Development period: 2015 ~ present
+- __Team size:__ 2 people
+- __Language:__ C#
+- __Engine:__ Unity
+- __Development period:__ 2015 ~ present
 
 ### Responsibilities
 
-- Designing and implementing all gameplay systems and features
-- Integrating the UI
-- Creating custom tools to speed up content creation
-- Integrating art and data into the game
-- Writing the plot and characters
-- Building all the levels
-- Designing and balancing game content
+#### Programming
+- Implemented all gameplay systems and features
+- Implemented UI and worked with the main artist to integrated the UI art
+- Created a number custom tools to speed up content creation
+
+#### Game design
+- Took part in designing game features
+- Took part in designing game content (enemies, items, etc.)
+- In charge of balancing the game
+
+#### Art
+- Helped with character design
+- Animated most character sprites
+- In charge of integrating art and data into the game
+- In charge of building the levels according to the main artist's designs
+
+#### Other
+- Designed the world and story
+- Wrote character dialogues and in-game descriptions
 
 ---
 
@@ -148,17 +186,25 @@ The game is playable on [itch.io](https://tchassin.itch.io/hexabuilder) and the 
 
 ### About
 
-- Team size: 1 person
-- Language: C#
-- Engine: Unity
-- Development period: 2022/8 ~ 2022/10 (3 months)
+- __Team size:__ 1 person
+- __Language:__ C#
+- __Engine:__ Unity
+- __Development period:__ 2022/8 ~ 2022/10 (3 months)
 
 ### Responsibilities
 
-- Designing and implementing all gameplay systems and features
-- Designing and implementing the UI
-- Creating, animating and integrating 3D models
-- Designing and balancing game content
+#### Programming
+- Designed and implemented and debugged all gameplay systems and features
+- Implemented the UI
+- Created in-game map edition tools
+
+#### Game design
+- Designed and balanced game content
+
+#### Art
+- Designed the UI
+- Selected and integrated free assets
+- Created, textured and animated 3D models
 
 ---
 
@@ -174,14 +220,20 @@ The game is playable on [itch.io](https://tchassin.itch.io/7-day-shmup).
 
 ### About
 
-- Team size: 1 person
-- Language: C#
-- Engine: Unity
-- Development period: 2021/1 (1 week)
+- __Team size:__ 1 person
+- __Language:__ C#
+- __Engine:__ Unity
+- __Development period:__ 2021/1 (1 week)
 
 ### Responsibilities
 
-- Designing and implementing all gameplay systems and features
-- Designing and implementing the UI
-- Creating, animating and integrating 3D models
-- Designing and balancing game content
+#### Programming
+- Designed, implemented and debugged all gameplay systems and features
+- Implemented the in-game UI
+
+#### Game design
+- Designed and balanced game content
+
+#### Art
+- Designed the in-game UI
+- Created, animated and integrated 3D models
