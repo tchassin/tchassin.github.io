@@ -1,8 +1,9 @@
 ---
-title: Home
+title: About me
 layout: page
 ---
 
+# About me
 Hello, I'm Thomas Chassin, a professional game programmer living in Tokyo, Japan. I love Japanese games and I believe there is something special about them, which is why I left France to work in the Japanese game industry.
 
 I have experience working on various types of games, from indie teams to medium size game studios, and I've worked on various types of games, from action role-playing games like *Star Ocean: The Divine Force* to real-time strategy games like *Steel Division: Normandy 44*.
@@ -13,6 +14,7 @@ While I am a programmer by trade, I am also interested in other aspects of game 
 
 ---
 
+# 自己紹介
 はじめまして、シャシントーマと申します。東京に住んでいるフランスのゲームプログラマーです。日本のゲームが大好きので、日本のゲーム業界に入る為に日本へ来ました。
 
 『スターオーシャン 6 THE DIVINE FORCE』のようにRPGやら、『Steel Division: Normandy 44』のようにリアルタイムストラテジーゲームやら、色々なゲームを開発した事があります。
