@@ -30,10 +30,10 @@ plugins:
 
 # Minima settings
 header_pages:
-  - professional-en.md
-  - personal-en.md
   - professional-jp.md
   - personal-jp.md
+  - professional-en.md
+  - personal-en.md
 
 minima:
   skin: auto
